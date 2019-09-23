@@ -39,7 +39,7 @@ function draw() {
     if (snake.eat(food)) {
         foodLocation();
     }
-    snake.eat(food);
+    
     snake.update();
     snake.show();
 
